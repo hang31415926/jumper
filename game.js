@@ -412,6 +412,7 @@ Game.prototype = {
         map: texture
     });
     var planeMesh = new THREE.Mesh(plane,planeMaterial);
+    this.jumper2 = planeMesh;
     this.scene.add(planeMesh);
 
     // geometry = THREE.PlaneGeometry(this.config.jumperWidth, this.config.jumperHeight);
